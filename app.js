@@ -22,6 +22,8 @@ if(process.env.NODE_ENV === 'development') {
 app.engine('.hbs', expdbs({ defaultLayout: 'main', extname: '.hbs' }))
 app.set('view engine', '.hbs')
 
+// Linking routes file
+app.use('/', require('./routes/index'))
 
 const PORT = process.env.PORT || 5000
 
