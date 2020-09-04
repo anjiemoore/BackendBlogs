@@ -3,9 +3,14 @@ p {
   }
 
   .login-container {
-    width: 80%;
-    margin-top: 100px;
+    width: 50%;
+    margin-top: 20px;
     text-align: center;
+  }
+
+  .section {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
   .fa-small {
@@ -13,11 +18,11 @@ p {
   }
   
   .btn {
-    width: 80%;
+    width: 50%;
   }
 
   .register {
-    width: 60%;
+    width: 30%;
   }
   .btn-float {
     float: left;
