@@ -1,35 +1,35 @@
 p {
     margin: 10px 0 !important;
-  }
+}
 
-  .login-container {
+.login-container {
     width: 50%;
     margin-top: 20px;
     text-align: center;
-  }
+}
 
-  .section {
+.section {
     padding-top: 10px;
     padding-bottom: 10px;
-  }
-  
-  .fa-small {
-    font-size: 16px !important;
-  }
-  
-  .btn {
-    width: 50%;
-  }
+}
 
-  .register {
+.fa-small {
+    font-size: 16px !important;
+}
+
+.btn {
+    width: 50%;
+}
+
+.register {
     width: 30%;
-  }
-  .btn-float {
+}
+
+.btn-float {
     float: left;
     margin-right: 10px;
-  }
-  
-  .img-small {
-    width: 180px;
-  }
+}
 
+.img-small {
+    width: 180px;
+}
