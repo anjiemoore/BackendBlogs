@@ -30,6 +30,10 @@ if(process.env.NODE_ENV === 'development') {
 app.engine('.hbs', expdbs({ defaultLayout: 'main', extname: '.hbs' }))
 app.set('view engine', '.hbs')
 
+// Body parser
+app.use(express.urlencoded({ extended: false }))
+app.use(express.json())
+
 // Session middleware
 app.use(session({
     secret: 'keyboard cat',

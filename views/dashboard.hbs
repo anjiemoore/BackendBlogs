@@ -8,12 +8,10 @@
                 <th>Title</th>
                 <th>Date</th>
                 <th>Status</th>
-                <th>Title</th>
                 <th></th>
             </tr>
         </thead>
-    </table>
-    <tbody>
+        <tbody>
         {{#each entries}}
         <tr>
             <td><a href="/entries/{{_id}}"></a>{{title}}</td>
@@ -23,6 +21,7 @@
         </tr>
         {{/each}}
     </tbody>
+    </table>
 {{else}}
 <p>You have not created any journal entries yet!</p>
 {{/if}}

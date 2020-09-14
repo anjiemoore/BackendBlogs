@@ -13,7 +13,7 @@ const EntrySchema = new mongoose.Schema({
     status: {
         type: String,
         default: 'public',
-        enum: ['pubblic', 'private']
+        enum: ['public', 'private']
     },
     user: {
         type: mongoose.Schema.Types.ObjectId,
