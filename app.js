@@ -26,8 +26,18 @@ if(process.env.NODE_ENV === 'development') {
     app.use(morgan('dev'))
 }
 
+// Handlebars Helpers
+const { formatDate } = require('./helpers/hbhelpers')
+
 // Handlebars extension name
-app.engine('.hbs', expdbs({ defaultLayout: 'main', extname: '.hbs' }))
+app.engine(
+    '.hbs', 
+    expdbs({ 
+    helpers: {formatDate,}, 
+    defaultLayout: 'main', 
+    extname: '.hbs' 
+    })
+)
 app.set('view engine', '.hbs')
 
 // Body parser
