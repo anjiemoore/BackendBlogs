@@ -1,6 +1,7 @@
 const moment = require('moment')
 
 module.exports = {
+    //September 14th, 2020 at 5:29:27pm
     formatDate: function (date, format) {
         return moment(date).format(format)
     },
@@ -17,6 +18,5 @@ module.exports = {
       stripTags: function (input) {
         return input.replace(/<(?:.|\n)*?>/gm, '')
       },
-
 }
-//September 14th, 2020 at 5:29:27pm
+
