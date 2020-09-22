@@ -1,5 +1,4 @@
 const moment = require('moment')
-const format = require('date-fns/format')
 
 module.exports = {
     formatDate: function (date, format) {
